@@ -1,7 +1,7 @@
 ﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using RevitAPILab5_3.Properties;
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -32,7 +32,7 @@ namespace RevitAPILab5_3
                 Path.Combine(utilsFolderPath, "RevitAPILab5_2.dll"),
                 "RevitAPILab5_2.Main");
 
-            Uri uriImage = new Uri(@"C:\RevitAPITraining\RevitAPILab5.3\Images\2.png", UriKind.Absolute);
+            Uri uriImage = new Uri(@"C:\Users\vocma\source\repos\RevitAPILab5_3\RevitAPILab5_3\Images\2.png", UriKind.Absolute);
             BitmapImage largeImage = new BitmapImage(uriImage);
             button1.LargeImage = largeImage;
 
@@ -42,7 +42,7 @@ namespace RevitAPILab5_3
                          Path.Combine(utilsFolderPath, "RevitAPILab5_1.dll"),
                          "RevitAPILab5_1.Main");
 
-            Uri uriImage2 = new Uri(@"C:\RevitAPITraining\RevitAPILab5.3\Images\1.png", UriKind.Absolute);
+            Uri uriImage2 = new Uri(@"C:\Users\vocma\source\repos\RevitAPILab5_3\RevitAPILab5_3\Images\1.png", UriKind.Absolute);
             BitmapImage largeImage2 = new BitmapImage(uriImage2);
             button2.LargeImage = largeImage2;
 
